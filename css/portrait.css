@@ -1,0 +1,116 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    height: 150%;
+    
+    background-color: white;
+    
+    box-sizing: border;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    flex-grow: 1;
+    margin: 3rem;
+    background-color: #490c74;
+}
+
+div{
+    display: flex;
+}
+
+.tilde{
+    height: 3rem;
+    width: 3rem;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+.G-squares,
+.R-squares,
+.B-squares{
+    height: 7rem;
+    width: 7rem;
+    border: .5rem solid #f4f49b;
+}
+
+.G-squares{
+    background-color: #90EE90;
+}
+.R-squares{
+    background-color: #ee9090;
+}
+.B-squares{
+    background-color: #9090ee;
+}
+
+
+
+div[sq=two]{
+    justify-content: center;
+}
+div[sq=three]{
+    justify-content: flex-end;
+}
+
+
+
+div[sq=four]{
+    
+}
+div[mid=left]{
+    align-self: center;
+}
+
+div[sq=five]{
+    justify-content: center;
+}
+div[mid=mid]{
+    align-self: center;
+}
+
+div[sq=six]{
+    justify-content: flex-end;
+}
+div[mid=right]{
+    align-self: center;
+}
+
+
+
+div[sq=seven]{
+    
+}
+div[low=left]{
+    align-self: flex-end;
+}
+
+div[sq=eight]{
+    justify-content: center;
+}
+div[low=mid]{
+    align-self: flex-end;
+}
+
+div[sq=nine]{
+    justify-content: flex-end;
+}
+div[low=right]{
+    align-self: flex-end;
+}

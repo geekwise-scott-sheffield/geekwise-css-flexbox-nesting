@@ -53,13 +53,70 @@ body{
 }
 
 
+
+div[dice=one]{
+    justify-content: flex-start;
+}
 div[top=left]{
-    
     
 }
 
+div[dice=two]{
+    justify-content: center;
+}
 div[top=center]{
-    display: inline-flex;
-    justify-content: flex-start;
+    
+}
+
+div[dice=three]{
+    justify-content: flex-end;
+}
+div[top=right]{
+    
+}
+
+
+
+div[dice=four]{
+    
+}
+div[center=left]{
     align-self: center;
+}
+
+div[dice=five]{
+    justify-content: center;
+}
+div[center=center]{
+    align-self: center;
+}
+
+div[dice=six]{
+    justify-content: flex-end;
+}
+div[center=right]{
+    align-self: center;
+}
+
+
+
+div[dice=seven]{
+    
+}
+div[bottom=left]{
+    align-self: flex-end;
+}
+
+div[dice=eight]{
+    justify-content: center;
+}
+div[bottom=center]{
+    align-self: flex-end;
+}
+
+div[dice=nine]{
+    justify-content: flex-end;
+}
+div[bottom=right]{
+    align-self: flex-end;
 }
